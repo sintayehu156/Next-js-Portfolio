@@ -1,8 +1,8 @@
-import React from 'react'
-import Image from 'next/image'
-import {RiRadioButtonFill} from 'react-icons/ri'
-import propertyImg from '../public/asstes/project1.avif'
-import Link from 'next/link'
+import React from "react";
+import Image from "next/image";
+import { RiRadioButtonFill } from "react-icons/ri";
+import propertyImg from "../public/asstes/project1.avif";
+import Link from "next/link";
 
 const Property = () => {
   return (
@@ -22,53 +22,52 @@ const Property = () => {
         </div>
       </div>
       <div className="mx-w-[1240px] mx-auto p-2 grid md:grid-cols-5 pt-4 ">
-        <div className="col-span-4">
+        <div className="col-span-4 py-4 text-gray-600 max-w-[70%] m-auto">
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            This app was built using React JS and is hosted on Firebase. Lorem
+            ipsum dolor, sit amet consectetur adipisicing elit. Deserunt numquam
+            nihil tenetur ratione enim nisi temporibus ducimus obcaecati ullam
+            dolorem! Recusandae mollitia, perspiciatis vitae nostrum autem
+            consequatur quisquam adipisci illum soluta itaque ea et enim
+            repudiandae fugit accusantium magnam sed doloremque delectus
+            laboriosam veniam ex pariatur voluptatum at! Suscipit, culpa?
           </p>
           <button className="px-4 py-2 mt-4 mr-4">Demo</button>
           <button className="px-4 py-2 mt-4 mr-4">Code</button>
-          </div>
-          <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
-            <div className="p-2">
-              <p className="text-center font-bold pb-2">Technologies</p>
-              <div className="grid grid-cols-3 md:grid-cols-1">
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Python
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Javascript
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> React
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Next js
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Frappe
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Github
-                </p>
-              </div>
+        </div>
+        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
+          <div className="p-2">
+            <p className="text-center font-bold pb-2">Technologies</p>
+            <div className="grid grid-cols-3 md:grid-cols-1">
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Python
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Javascript
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> React
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Next js
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Frappe
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Github
+              </p>
             </div>
           </div>
-          <Link href='/#projects'>
-          <h3 className='underline cursor-pointer '>Back</h3>
-          </Link>
         </div>
       </div>
+      <Link href="/#projects">
+        <p className="underline cursor-pointer flex justify-center ">Back</p>
+      </Link>
+    </div>
   );
-}
+};
 
-export default Property
+export default Property;

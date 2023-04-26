@@ -44,8 +44,8 @@ const Navbar = () => {
   },[])
  
   return (
-    <div  
-    style={{backgroundColor: `${navBg}`}}
+    <div
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full bg-gray-700 h-20 shadow-xl z-[100] "
@@ -53,44 +53,44 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-       <Link href='/'>
-        <Image
-          src="/../public/asstes/logo.png"
-          alt="/"
-          width="80"
-          height="70"
-        />
-       </Link>
-        
+        <Link href="/">
+          <Image
+            className="rounded-xl"
+            src="/../public/asstes/logo2.png"
+            alt="/"
+            width={80}
+            height={70}
+          />
+        </Link>
         <div>
-          <ul style={{ color: `${linkColor}`}} className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover: border-b hover:text-red-800">
+              <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#0979d4]">
                 Home
               </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover: border-b hover:text-red-800">
+              <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#0979d4]">
                 About
               </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover: border-b hover:text-red-800">
+              <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#0979d4]">
                 Skills
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover: border-b hover:text-red-800">
+              <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#0979d4]">
                 Projects
               </li>
             </Link>
             <Link href="/#contacts">
-              <li className="ml-10 text-sm uppercase hover: border-b hover:text-red-800">
+              <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#0979d4]">
                 Contacts
               </li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden">
+          <div onClick={handleNav} className="md:hidden ">
             <AiOutlineMenu size="25" />
           </div>
         </div>
@@ -110,17 +110,17 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href='/'>
-              <Image
-                src="/../public/asstes/logo.png"
-                alt="/"
-                width="87"
-                height="35"
-              />
+              <Link href="/">
+                <Image
+                  src="/../public/asstes/logo2.png"
+                  alt="/"
+                  width="87"
+                  height="35"
+                />
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:bg-[#36739b] hover:text-white "
               >
                 <AiOutlineClose />
               </div>
@@ -134,44 +134,58 @@ const Navbar = () => {
           <div>
             <ul>
               <Link href="/">
-                <li onClick={()=> setNav(false)} className="uppercase  hover:text-red-800 py-4 text:sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className="uppercase  hover:text-[#0979d4] py-4 text:sm"
+                >
                   Home
                 </li>
               </Link>
               <Link href="/#about">
-                <li onClick={()=> setNav(false)} className="uppercase  hover:text-red-800 py-4 text:sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className="uppercase  hover:text-[#0979d4] py-4 text:sm"
+                >
                   About
                 </li>
               </Link>
               <Link href="/#skills">
-                <li onClick={()=> setNav(false)} className="uppercase  hover:text-red-800 py-4 text:sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className="uppercase  hover:text-[#0979d4] py-4 text:sm"
+                >
                   Skills
                 </li>
               </Link>
               <Link href="/#projects">
-                <li onClick={()=> setNav(false)} className="uppercase  hover:text-red-800 py-4 text:sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className="uppercase  hover:text-[#0979d4] py-4 text:sm"
+                >
                   Projects
                 </li>
               </Link>
               <Link href="/#contacts">
-                <li onClick={()=> setNav(false)} className="uppercase  hover:text-red-800 py-4 text:sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className="uppercase  hover:text-[#0979d4] py-4 text:sm"
+                >
                   Contacts
                 </li>
               </Link>
             </ul>
             <div className="pt-40">
-              <p className="uppercase tracking-widest text-[#]">
-                {" "}
-                Lets Connect
-              </p>
+              <p className="uppercase tracking-widest text-[#]">Lets Connect</p>
               <div className="flex item-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
-                  <FaLinkedinIn />
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#36739b] hover:text-white ">
+                  <a href="https://www.linkedin.com/in/sinteshibeshi">
+                    <FaLinkedinIn />
+                  </a>
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#36739b] hover:text-white ">
                   <AiOutlineMail />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#36739b] hover:text-white ">
                   <FaGithub />
                 </div>
               </div>

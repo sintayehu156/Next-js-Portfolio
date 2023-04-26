@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
-import cryptoImg from "../public/asstes/Project2.avif";
+import cryptoImg from "../public/asstes/pharmacy.avif";
 import Link from "next/link";
 
 const Kenema = () => {
@@ -22,18 +22,17 @@ const Kenema = () => {
         </div>
       </div>
       <div className="mx-w-[1240px] mx-auto p-2 grid md:grid-cols-5 pt-4 ">
-        <div className="col-span-4">
+        <div className="col-span-4 py-4 text-gray-600 max-w-[70%] m-auto">
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            This app was built using React JS and is hosted on Firebase. Lorem
+            ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
+            sequi molestias aut cumque a soluta quisquam sapiente accusantium?
+            Quasi saepe fugit, nam numquam, laboriosam quaerat consequuntur
+            deserunt excepturi ratione quis obcaecati iste dolores minus!
+            Doloremque tempora dicta tenetur sit, nemo ipsa blanditiis velit
+            beatae. Reiciendis accusantium cumque suscipit id et.
           </p>
           <button className="px-4 py-2 mt-4 mr-4">Demo</button>
           <button className="px-4 py-2 mt-4 mr-4">Code</button>
@@ -57,10 +56,10 @@ const Kenema = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
-          <p className="underline cursor-pointer ">Back</p>
-        </Link>
       </div>
+      <Link href="/#projects">
+        <p className="underline cursor-pointer flex justify-center ">Back</p>
+      </Link>
     </div>
   );
 };

@@ -1,7 +1,9 @@
 import React from "react";
 import ProjectItems from "./ProjectItems";
-import propertyImg from '../../public/asstes/agile.avif'
+import propertyImg from '../../public/asstes/pharmacy1.avif'
 import cryptoImg from '../../public/asstes/ecommerce.avif'
+import kenemaImg from "../../public/asstes/erp1.avif";
+import techethioImg from "../../public/asstes/chatgpt.avif";
 
 
 
@@ -16,22 +18,34 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItems
             title="Kenema Pharmacy"
+            tech="I have experience in the field and have
+            worked with various programming languages and frameworks, including
+            Python, JavaScript, React, Next.js, Vue, and Nuxt.js."
             backgroundImg={propertyImg}
             projecturl="/Property"
           />
           <ProjectItems
             title="ERP System"
+            tech="I have experience in the field and have
+            worked with various programming languages and frameworks, including
+            Python, JavaScript, React, Next.js, Vue, and Nuxt.js."
             backgroundImg={cryptoImg}
             projecturl="/Kenema"
           />
           <ProjectItems
             title="Bizenforce"
-            backgroundImg={cryptoImg}
+            tech="I have experience in the field and have
+            worked with various programming languages and frameworks, including
+            Python, JavaScript, React, Next.js, Vue, and Nuxt.js."
+            backgroundImg={kenemaImg}
             projecturl="/Bizenforce"
           />
           <ProjectItems
             title="TechEthio"
-            backgroundImg={propertyImg}
+            tech="I have experience in the field and have
+            worked with various programming languages and frameworks, including
+            Python, JavaScript, React, Next.js, Vue, and Nuxt.js."
+            backgroundImg={techethioImg}
             projecturl="/Techethio"
           />
         </div>

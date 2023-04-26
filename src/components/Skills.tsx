@@ -3,20 +3,20 @@ import Image from 'next/image'
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full lg:h-screen p-2">
+    <div id="skills" className="w-full lg:h-screen p-8 md:p-16">
       <div className="max-w-[1240%] mx-auto flox flex-col justify-center h-full ">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Skills
         </p>
         <h2 className="py-4">What Can I Do</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src="/../public/asstes/html.png"
-                  width="100"
-                  height="100"
+                  width={100}
+                  height={100}
                   alt="/"
                 />
               </div>
@@ -30,8 +30,8 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/asstes/css.png"
-                  width="100"
-                  height="100"
+                  width={100}
+                  height={100}
                   alt="/"
                 />
               </div>
@@ -45,8 +45,8 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/asstes/js.png"
-                  width="100"
-                  height="100"
+                  width={100}
+                  height={100}
                   alt="/"
                 />
               </div>
@@ -60,8 +60,8 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/asstes/react.png"
-                  width="100"
-                  height="100"
+                  width={100}
+                  height={100}
                   alt="/"
                 />
               </div>
@@ -75,8 +75,8 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/asstes/nextjs.png"
-                  width="100"
-                  height="100"
+                  width={100}
+                  height={90}
                   alt="/"
                 />
               </div>
@@ -90,8 +90,8 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/asstes/python.png"
-                  width="100"
-                  height="200"
+                  width={100}
+                  height={100}
                   alt="/"
                 />
               </div>
@@ -105,8 +105,8 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/asstes/erpnext.png"
-                  width="100"
-                  height="100"
+                  width={100}
+                  height={100}
                   alt="/"
                 />
               </div>
@@ -120,8 +120,8 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/asstes/frappe.png"
-                  width="100"
-                  height="100"
+                  width={100}
+                  height={100}
                   alt="/"
                 />
               </div>
