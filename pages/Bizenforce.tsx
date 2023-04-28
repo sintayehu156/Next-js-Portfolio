@@ -17,7 +17,7 @@ const Bizenforce = () => {
           alt="/"
         />
         <div className="absolute top-[70%] text-white z-10 py-2 max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-30%] ">
-          <h2 className="py-2">Bizenforce</h2>
+          <h2 className="py-2">BizEnforce</h2>
           <h3>Python | Javascript | Frappe | Mariadb</h3>
         </div>
       </div>
