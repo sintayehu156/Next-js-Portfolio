@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
@@ -31,7 +31,7 @@ const Main = () => {
             communication and collaboration skills
           </p>
         </div>
-        <div className="w-full h-auto m-auto rounded-xl flex items-center justify-center ">
+        {/* <div className="w-full h-auto m-auto rounded-xl flex items-center justify-center ">
           <div>
             <div>
               <Image
@@ -41,7 +41,7 @@ const Main = () => {
                 height={900}
                 alt="/"
               />
-            </div>
+            </div> */}
             <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#36739b] hover:text-white  ">
                 <Link href="https://www.linkedin.com/in/sinteshibeshi">
