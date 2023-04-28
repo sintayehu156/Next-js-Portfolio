@@ -48,6 +48,38 @@ const Projects = () => {
             backgroundImg={techethioImg}
             projecturl="/Techethio"
           />
+          <ProjectItems
+            title="TechEthio"
+            tech="I have experience in the field and have
+            worked with various programming languages and frameworks, including
+            Python, JavaScript, React, Next.js, Vue, and Nuxt.js."
+            backgroundImg={techethioImg}
+            projecturl="/Techethio"
+          />
+          <ProjectItems
+            title="TechEthio"
+            tech="I have experience in the field and have
+            worked with various programming languages and frameworks, including
+            Python, JavaScript, React, Next.js, Vue, and Nuxt.js."
+            backgroundImg={techethioImg}
+            projecturl="/Techethio"
+          />
+          <ProjectItems
+            title="TechEthio"
+            tech="I have experience in the field and have
+            worked with various programming languages and frameworks, including
+            Python, JavaScript, React, Next.js, Vue, and Nuxt.js."
+            backgroundImg={techethioImg}
+            projecturl="/Techethio"
+          />
+          <ProjectItems
+            title="TechEthio"
+            tech="I have experience in the field and have
+            worked with various programming languages and frameworks, including
+            Python, JavaScript, React, Next.js, Vue, and Nuxt.js."
+            backgroundImg={techethioImg}
+            projecturl="/Techethio"
+          />
         </div>
       </div>
     </div>
