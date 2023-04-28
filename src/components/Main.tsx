@@ -30,6 +30,28 @@ const Main = () => {
             design and management Strong problem-solving skills Excellent
             communication and collaboration skills
           </p>
+          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#36739b] hover:text-white  ">
+              <Link href="https://www.linkedin.com/in/sinteshibeshi">
+                <FaLinkedinIn />
+              </Link>
+            </div>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#36739b] hover:text-white  ">
+              <Link href="https://github.com/sintayehu156">
+                <FaGithub />
+              </Link>
+            </div>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#36739b] hover:text-white  ">
+              <Link href="http://www.facebook.com/sentia156">
+                <FaFacebook />
+              </Link>
+            </div>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#36739b] hover:text-white  ">
+              <Link href="https://mail.google.com/mail/u/0/#inbox">
+                <AiOutlineMail />
+              </Link>
+            </div>
+          </div>
         </div>
         {/* <div className="w-full h-auto m-auto rounded-xl flex items-center justify-center ">
           <div>
@@ -41,7 +63,7 @@ const Main = () => {
                 height={900}
                 alt="/"
               />
-            </div> */}
+            </div>
             <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#36739b] hover:text-white  ">
                 <Link href="https://www.linkedin.com/in/sinteshibeshi">
@@ -65,7 +87,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
