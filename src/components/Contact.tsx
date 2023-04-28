@@ -21,8 +21,8 @@ const Contact = () => {
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src="/../public/asstes/contact1.avif"
-                  width={700}
-                  height={640}
+                  width="700"
+                  height="640"
                   alt="/"
                 />
               </div>
