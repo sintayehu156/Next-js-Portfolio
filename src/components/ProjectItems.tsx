@@ -4,7 +4,7 @@ import Link from "next/link";
 
 interface ProjectItemsProps {
   title: string;
-  backgroundImg: string;
+  backgroundImg: any;
   tech: string;
   projecturl: string;
 }
